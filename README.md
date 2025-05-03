@@ -154,3 +154,6 @@ File picker	QFileDialog.getOpenFileName()
 File history	JSON file + QListWidget
 GUI Window	PyQt6 via EncryptorApp(QWidget)
 
+
+# Output: 
+<img width="383" alt="Image" src="https://github.com/user-attachments/assets/a0d198e0-3c65-411a-bce6-013c7b8b06b2" />
