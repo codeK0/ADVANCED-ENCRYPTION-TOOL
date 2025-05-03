@@ -143,6 +143,61 @@ Loads the GUI window.
 
 Starts the event loop (to wait for clicks, drags, etc.).
 
+
+# How to Use the Encryption App GUI:
+Once you’ve run python main.py, the window should appear with:
+
+ A password input field
+
+ Encrypt and Decrypt buttons
+
+ Drag-and-drop support
+
+ A file history list at the bottom
+
+🔐 Step 1: Enter a Password
+This is required for both encryption and decryption.
+
+Type your chosen password into the field at the top.
+
+Use something strong but memorable (this is what protects your data).
+
+🔒 Step 2: Encrypt a File
+Option A: Click "Encrypt File"
+Click the Encrypt File button.
+
+Choose the file you want to encrypt.
+
+It will create a new file ending in .enc (e.g. document.pdf.enc).
+
+You’ll see the output path in the status bar.
+
+Option B: Drag & Drop
+Drag any file from your file explorer into the app window.
+
+If it's not already encrypted, it will be encrypted automatically.
+
+🔓 Step 3: Decrypt a File
+Option A: Click "Decrypt File"
+Click the Decrypt File button.
+
+Select a .enc file.
+
+It will decrypt the file to a new one ending in .dec (e.g. document.pdf.dec).
+
+Option B: Drag & Drop
+Drag a .enc file into the app window.
+
+If a password was already entered, it will decrypt automatically.
+
+🕘 Step 4: Review File History
+At the bottom, you'll see a list of the last 10 files you've encrypted/decrypted.
+
+This helps you find where your files were saved.
+
+Double-clicking functionality can be added if you'd like to open them directly from the list.
+
+
 📦 Summary
 -Feature	Where It's Handled
 
