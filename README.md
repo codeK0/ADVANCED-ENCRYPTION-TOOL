@@ -12,7 +12,8 @@
 
 *MENTOR*: NEELA SANTOSH
 
-# DESCRIPTION OF TASK: 
+# DESCRIPTION OF TASK: The goal of this project is to build a secure desktop application using Python, PyQt6, and the Cryptography library. The application allows users to encrypt and decrypt files using AES-256 encryption, with a focus on strong security, usability, and modern design.
+
 
 # Editor used: VS Studio
 
