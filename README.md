@@ -156,14 +156,14 @@ Once you’ve run python main.py, the window should appear with:
 
  A file history list at the bottom
 
-🔐 Step 1: Enter a Password
+1. Step 1: Enter a Password
 This is required for both encryption and decryption.
 
 Type your chosen password into the field at the top.
 
 Use something strong but memorable (this is what protects your data).
 
-🔒 Step 2: Encrypt a File
+2. Step 2: Encrypt a File
 Option A: Click "Encrypt File"
 Click the Encrypt File button.
 
@@ -178,7 +178,7 @@ Drag any file from your file explorer into the app window.
 
 If it's not already encrypted, it will be encrypted automatically.
 
-🔓 Step 3: Decrypt a File
+3. Step 3: Decrypt a File
 Option A: Click "Decrypt File"
 Click the Decrypt File button.
 
@@ -191,7 +191,7 @@ Drag a .enc file into the app window.
 
 If a password was already entered, it will decrypt automatically.
 
-🕘 Step 4: Review File History
+4. Step 4: Review File History
 At the bottom, you'll see a list of the last 10 files you've encrypted/decrypted.
 
 This helps you find where your files were saved.
@@ -199,7 +199,7 @@ This helps you find where your files were saved.
 Double-clicking functionality can be added if you'd like to open them directly from the list.
 
 
-📦 Summary
+# Summary
 -Feature	Where It's Handled
 
 AES-256 encryption	crypto_utils.encrypt_file()
